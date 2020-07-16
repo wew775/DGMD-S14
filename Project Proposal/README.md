@@ -14,12 +14,12 @@ Wei Wen: Data collection and training
 
 3. Goal of the Project: (Describe here which problem are you solving and your motivation)
 As working professional we all have chronic neck problem. I have constant neck spasm and have to use swimming to solve
-the problem. However swimming is a time consuming excercise, and it would be great if we have a wearable device that can guide through a
-set of excercise related to head movements. In order to do so we need to classify different head movements first, and this is the goal of
+the problem. However swimming is a time consuming exercise, and it would be great if we have a wearable device that can guide through a
+set of exercise related to head movements. In order to do so we need to classify different head movements first, and this is the goal of
 our project.
 
-The deliverable of our project will be a program that classifies head movements. We will not include the guided excercise part as we think the hard part is how to
-recognize different head movement and that the device know whether you are performing the right movement. We will not design the actual excercise as it is a topic
+The deliverable of our project will be a program that classifies head movements. We will not include the guided exercise part as we think the hard part is how to
+recognize different head movement and that the device know whether you are performing the right movement. We will not design the actual exercise as it is a topic
 related to kinesiology.
 
 4. Software and Developing tools:
@@ -34,15 +34,15 @@ related to kinesiology.
     https://github.com/wew775/DGMD-S14
 
     b. any other tools? (example: dropbox, google drive, slack, google collab, etc.)
-    Our explainatory documents will be shared through email primarily as google might not be convenient based on our location.
+    Our explanatory documents will be shared through email primarily as google might not be convenient based on our location.
 
 5. Hardware used:
 - STMicro Sensortile and nucleo board
 - possibly cell phone
-- possibly rasberry pi.
+- possibly raspberry pi.
 
 6. Team Meeting Schedule: (tentative hours to meet with your team every week)
-We will meet every Thurseday night at 7:30.
+We will meet every Thursday night at 7:30.
 
 7. List of Milestones, week by week:
 
