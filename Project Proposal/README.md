@@ -1,9 +1,10 @@
 # DGMD-S14
  DGMD-S14 Wearable Device
  Proposal
+ Zhengyuan Liu
+ Wei Wen
  paste a link to a shared document with your answers (github or google)
-
-Please submit your proposal with the following content:
+ https://github.com/wew775/DGMD-S14/tree/master/Project%20Proposal
 
 1. Team Name: Far East Heads
 
@@ -19,7 +20,7 @@ our project.
 
 The deliverable of our project will be a program that classifies head movements. We will not include the guided excercise part as we think the hard part is how to
 recognize different head movement and that the device know whether you are performing the right movement. We will not design the actual excercise as it is a topic
-related to kinesiology. 
+related to kinesiology.
 
 4. Software and Developing tools:
 - Anaconda
@@ -29,11 +30,11 @@ related to kinesiology.
 - FANN (for machine learning)
 - Jupyter Notebook
 
-a. include a GitHub repository
-https://github.com/wew775/DGMD-S14/tree/master/Project%20Proposal
+    a. include a GitHub repository
+    https://github.com/wew775/DGMD-S14
 
-b. any other tools? (example: dropbox, google drive, slack, google collab, etc.)
-Our explainatory documents will be shared through email primarily as google might not be convenient based on our location.
+    b. any other tools? (example: dropbox, google drive, slack, google collab, etc.)
+    Our explainatory documents will be shared through email primarily as google might not be convenient based on our location.
 
 5. Hardware used:
 - STMicro Sensortile and nucleo board
