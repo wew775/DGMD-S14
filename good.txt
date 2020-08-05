@@ -1,0 +1,145 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.08.05 21:28:44 =~=~=~=~=~=~=~=~=~=~=~=
+
+EmbeddedML Single State Orientation Classification
+
+Double Tap to start training
+
+
+Training Start in 2 seconds ..
+Move to Start Position - Wait for LED On
+Move to Orientation 1 on LED On
+Start Motion to new Orientation and hold while LED On
+ Motion Complete
+Accel 21	10-23
+ Softmax Input 		21	10	-23
+ Softmax Output		64	30	-70
+
+
+Move to Start Position - Wait for LED On
+Move to Orientation 2 on LED On
+Start Motion to new Orientation and hold while LED On
+ Motion Complete
+Accel -21	34-43
+ Softmax Input 		-21	34	-43
+ Softmax Output		-35	57	-73
+
+
+Move to Start Position - Wait for LED On
+Move to Orientation 3 on LED On
+Start Motion to new Orientation and hold while LED On
+ Motion Complete
+Accel 196	-844415
+ Softmax Input 		196	-844	415
+ Softmax Output		20	-87	43
+
+
+Move to Start Position - Wait for LED On
+Move to Orientation 4 on LED On
+Start Motion to new Orientation and hold while LED On
+ Motion Complete
+Accel -63	129-521
+ Softmax Input 		-63	129	-521
+ Softmax Output		-11	23	-96
+
+
+
+Training Start
+
+
+Training Epochs: 0
+
+State 2	Max 0	Mean 0		Z-score 0	Outputs	108	106	109	109	 Classification Error
+State 0	Max 0	Mean 0		Z-score 0	Outputs	-53	-24	-31	-30	 Classification Error
+State 0	Max 0	Mean 0		Z-score 0	Outputs	-25	-41	-45	-40	 Classification Error
+State 0	Max 0	Mean 0		Z-score 0	Outputs	-107	-103	-104	-104	 Classification Error
+Error State: 1
+
+
+Training Epochs: 20
+
+State 0	Max 115	Mean 113		Z-score 111	Outputs	115	111	113	114	 Classification Accuracy Limit
+State 3	Max 0	Mean 0		Z-score 0	Outputs	42	63	26	74	 Classification Error
+State 2	Max 28	Mean 8		Z-score 111	Outputs	18	-3	28	-9
+State 3	Max 56	Mean 29		Z-score 133	Outputs	19	32	9	56
+Error State: 1
+
+
+Training Epochs: 40
+
+State 0	Max 113	Mean 111		Z-score 126	Outputs	113	109	110	111	 Classification Accuracy Limit
+State 3	Max 0	Mean 0		Z-score 0	Outputs	36	66	0	66	 Classification Error
+State 2	Max 57	Mean 19		Z-score 134	Outputs	24	-4	57	-1
+State 3	Max 56	Mean 24		Z-score 116	Outputs	15	34	-7	56
+Error State: 1
+
+
+Training Epochs: 60
+
+State 0	Max 111	Mean 109		Z-score 128	Outputs	111	107	108	109	 Classification Accuracy Limit
+State 1	Max 68	Mean 40		Z-score 83	Outputs	35	68	-6	62	 Classification Accuracy Limit
+State 2	Max 67	Mean 20		Z-score 138	Outputs	22	-7	67	0
+State 3	Max 56	Mean 22		Z-score 117	Outputs	13	32	-12	56
+Error State: 1
+
+
+Training Epochs: 80
+
+State 0	Max 109	Mean 107		Z-score 122	Outputs	109	105	106	107	 Classification Accuracy Limit
+State 1	Max 69	Mean 38		Z-score 88	Outputs	34	69	-9	59	 Classification Accuracy Limit
+State 2	Max 72	Mean 21		Z-score 141	Outputs	20	-9	72	2
+State 3	Max 58	Mean 20		Z-score 124	Outputs	10	27	-13	58
+Error State: 1
+
+
+Training Epochs: 100
+
+State 0	Max 107	Mean 105		Z-score 111	Outputs	107	103	104	106	 Classification Accuracy Limit
+State 1	Max 70	Mean 37		Z-score 91	Outputs	34	70	-10	56	 Classification Accuracy Limit
+State 2	Max 76	Mean 22		Z-score 142	Outputs	19	-9	76	4
+State 3	Max 61	Mean 19		Z-score 130	Outputs	8	23	-14	61
+Error State: 1
+
+
+Training Epochs: 200
+
+State 3	Max 0	Mean 0		Z-score 0	Outputs	103	-5	-9	104	 Classification Error
+State 1	Max 81	Mean 34		Z-score 123	Outputs	25	81	-10	41
+State 2	Max 80	Mean 24		Z-score 146	Outputs	15	-3	80	6
+State 3	Max 77	Mean 16		Z-score 138	Outputs	7	7	-28	77
+Error State: 1
+
+
+Training Epochs: 300
+
+State 0	Max 104	Mean 32		Z-score 136	Outputs	104	0	-12	38
+State 1	Max 85	Mean 31		Z-score 132	Outputs	15	85	-11	35
+State 2	Max 84	Mean 25		Z-score 148	Outputs	12	-1	84	6
+State 3	Max 76	Mean 14		Z-score 143	Outputs	4	0	-25	76
+Error State: 0
+
+Move to Start Position - Wait for LED On
+Start Motion to new Orientation and hold while LED On
+ Motion Complete
+ Softmax Input: 	30	2	-16	
+ Softmax Output: 	88	5	-46	
+Turn Left
+Move to Start Position - Wait for LED On
+Start Motion to new Orientation and hold while LED On
+ Motion Complete
+ Softmax Input: 	-13	16	-19	
+ Softmax Output: 	-46	57	-67	
+Turn Right
+
+Move to Start Position - Wait for LED On
+Start Motion to new Orientation and hold while LED On
+ Motion Complete
+ Softmax Input: 	158	-820	480	
+ Softmax Output: 	16	-85	49	
+Look Up
+Move to Start Position - Wait for LED On
+Start Motion to new Orientation and hold while LED On
+ Motion Complete
+ Softmax Input: 	-167	142	-680	
+ Softmax Output: 	-23	19	-95	
+Look Down
+Move to Start Position - Wait for LED On
